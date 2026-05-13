@@ -1,0 +1,33 @@
+.statline::after {
+  @apply bg-rb-cotton-seed;
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 40px;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+  visibility: hidden;
+}
+@media (min-width: 768px) {
+  .statline::after {
+    visibility: visible;
+    right: -63px;
+  }
+}
+@media (min-width: 1024px) {
+  .statline:nth-child(2) {
+    min-width: 221px;
+  }
+}
+.statline:nth-child(even)::after {
+  visibility: hidden;
+}
+@media (min-width: 1024px) {
+  .statline:nth-child(even)::after {
+    visibility: visible;
+  }
+  .statline:last-child::after {
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=StatsSection.module.css.map */

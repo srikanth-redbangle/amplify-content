@@ -1,0 +1,16 @@
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+  @apply font-everett;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 100px;
+    line-height: 93px;
+    letter-spacing: -2px;
+    margin-bottom: 40px;
+  }
+}/*# sourceMappingURL=Solutions.module.css.map */

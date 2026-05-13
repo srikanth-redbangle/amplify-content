@@ -1,0 +1,1427 @@
+export const teamSchema = [
+  {
+    '@context': 'http://schema.org/',
+    '@type': 'CreativeWork',
+    text: 'Meet our diverse global team, experts in holistic marketing, ready to deliver brand growth worldwide.',
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Global Team For Holistic Marketing',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Global Team For Holistic Marketing',
+    alternateName: 'Global Team For Holistic Marketing',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Global Team For Holistic Marketing',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Global Team For Holistic Marketing',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'International Experts Marketing Agency',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'International Experts Marketing Agency',
+    alternateName: 'International Experts Marketing Agency',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'International Experts Marketing Agency',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'International Experts Marketing Agency',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Diverse Professionals For Marketing Content Strategy',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Diverse Professionals For Marketing Content Strategy',
+    alternateName: 'Diverse Professionals For Marketing Content Strategy',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Diverse Professionals For Marketing Content Strategy',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Diverse Professionals For Marketing Content Strategy',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Multicultural Team For Digital Brand Management',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Multicultural Team For Digital Brand Management',
+    alternateName: 'Multicultural Team For Digital Brand Management',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Multicultural Team For Digital Brand Management',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Multicultural Team For Digital Brand Management',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Global Expertise Marketing Content Strategy',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Global Expertise Marketing Content Strategy',
+    alternateName: 'Global Expertise Marketing Content Strategy',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Global Expertise Marketing Content Strategy',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Global Expertise Marketing Content Strategy',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Team Members Marketing Agency',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Team Members Marketing Agency',
+    alternateName: 'Team Members Marketing Agency',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Team Members Marketing Agency',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Team Members Marketing Agency',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'International Presence',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'International Presence',
+    alternateName: 'International Presence',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'International Presence',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'International Presence',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Collaborative Team For Creative Content Marketing',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Collaborative Team For Creative Content Marketing',
+    alternateName: 'Collaborative Team For Creative Content Marketing',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Collaborative Team For Creative Content Marketing',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Collaborative Team For Creative Content Marketing',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Our People',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Our People',
+    alternateName: 'Our People',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Our People',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Our People',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Global Team',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Global Team',
+    alternateName: 'Global Team',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Global Team',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Global Team',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'International Experts',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'International Experts',
+    alternateName: 'International Experts',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'International Experts',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'International Experts',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Diverse Professionals',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Diverse Professionals',
+    alternateName: 'Diverse Professionals',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Diverse Professionals',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Diverse Professionals',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Meet Our Team',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Meet Our Team',
+    alternateName: 'Meet Our Team',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Meet Our Team',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Meet Our Team',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Multicultural Team',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Multicultural Team',
+    alternateName: 'Multicultural Team',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Multicultural Team',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Multicultural Team',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Global Expertise',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Global Expertise',
+    alternateName: 'Global Expertise',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Global Expertise',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Global Expertise',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Team Members',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Team Members',
+    alternateName: 'Team Members',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Team Members',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Team Members',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Collaborative Team',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    telephone: '9876543210',
+    priceRange: '$50',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress:
+        '2nd Floor, Silver Rock, 12, Nandi Durga Road, 1, 1st Main Rd, Bengaluru, Karnataka',
+      addressLocality: 'India',
+      postalCode: '560046',
+      addressCountry: 'IN',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 13.12032,
+      longitude: 77.62527,
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Collaborative Team',
+    alternateName: 'Collaborative Team',
+    url: 'https://www.redbangle.com/global-team-for-holistic-marketing',
+    logo: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '9876543210',
+      contactType: 'sales',
+      areaServed: 'IN',
+      availableLanguage: 'en',
+    },
+    sameAs: [
+      'https://www.linkedin.com/company/redbangle/',
+      'https://www.facebook.com/redbanglecollab/',
+      'https://www.instagram.com/redbanglecollab/',
+      'https://www.youtube.com/channel/UCbPlh2ukO1Qz6Ib2fY724QQ',
+    ],
+  },
+
+  {
+    '@context': 'http://schema.org',
+    '@type': 'Article',
+    image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.redbangle.com/global-team-for-holistic-marketing',
+      image: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+    },
+    headline: 'Collaborative Team',
+    datePublished: '2011-01-28T17:15:23+08:00',
+    dateModified: '2022-01-28T16:12:29+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'admin',
+    },
+    description: '',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Collaborative Team',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.redbangle.com/wp-content/uploads/2021/02/logored.png',
+      },
+    },
+  },
+]

@@ -1,0 +1,34 @@
+.root {
+  h2 {
+    @apply relative uppercase text-rb-red text-sm md:text-xl before:h-px font-semibold flex items-center before:w-7.5 before:md:w-headingLine before:bg-rb-red before:block before:relative before:mr-3;
+  }
+  h3 {
+    @apply text-title md:text-[32px] md:leading-[38px] md:font-medium md:tracking-[-1.28px] font-everett;
+  }
+
+  p {
+    @apply text-rb-black/80 text-base leading-[30px] tracking-[-0.4px];
+  }
+  .content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 24px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    // h3 {
+    //   @apply font-everett text-[32px] leading-[38px] font-medium tracking-[-1.28px];
+    // }
+    p {
+      margin-top: 16px;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}

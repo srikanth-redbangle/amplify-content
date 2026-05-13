@@ -1,0 +1,51 @@
+.root {
+  display: inline-flex;
+  @apply flex-wrap xl:flex-nowrap;
+  &[data-init='false'] {
+    opacity: 0;
+  }
+  &[data-init='true'] {
+    opacity: 1;
+    .digit > div {
+      opacity: 1;
+      //   animation: 1s animatedigit forwards;
+      //   animation-delay: 100ms;
+    }
+  }
+  .digit {
+    width: 1ch;
+    height: 56px;
+    display: inline-block;
+    overflow: hidden;
+    @media (min-width: 768px) {
+      height: 88px;
+    }
+    @for $i from 1 through 9 {
+      &[data-digit='#{$i}'] {
+        --digit: #{$i};
+      }
+      //   &[data-place='#{$i}'] {
+      //     --place: #{$i};
+      //   }
+    }
+
+    > div {
+      height: 100%;
+    }
+
+    // @keyframes animatedigit {
+    //   to {
+    //     transform: translateY(
+    //       calc(-100% * var(--digit, 0) * pow(10, var(--place, 0)))
+    //     );
+    //   }
+    // }
+  }
+  .char {
+    display: inline-block;
+    height: 56px;
+    @media (min-width: 768px) {
+      height: 88px;
+    }
+  }
+}

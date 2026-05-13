@@ -1,0 +1,63 @@
+.root {
+  display: inline-flex;
+  @apply flex-wrap xl:flex-nowrap;
+}
+.root[data-init=false] {
+  opacity: 0;
+}
+.root[data-init=true] {
+  opacity: 1;
+}
+.root[data-init=true] .digit > div {
+  opacity: 1;
+}
+.root .digit {
+  width: 1ch;
+  height: 56px;
+  display: inline-block;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .root .digit {
+    height: 88px;
+  }
+}
+.root .digit[data-digit="1"] {
+  --digit: 1;
+}
+.root .digit[data-digit="2"] {
+  --digit: 2;
+}
+.root .digit[data-digit="3"] {
+  --digit: 3;
+}
+.root .digit[data-digit="4"] {
+  --digit: 4;
+}
+.root .digit[data-digit="5"] {
+  --digit: 5;
+}
+.root .digit[data-digit="6"] {
+  --digit: 6;
+}
+.root .digit[data-digit="7"] {
+  --digit: 7;
+}
+.root .digit[data-digit="8"] {
+  --digit: 8;
+}
+.root .digit[data-digit="9"] {
+  --digit: 9;
+}
+.root .digit > div {
+  height: 100%;
+}
+.root .char {
+  display: inline-block;
+  height: 56px;
+}
+@media (min-width: 768px) {
+  .root .char {
+    height: 88px;
+  }
+}/*# sourceMappingURL=RollupNumber.module.css.map */

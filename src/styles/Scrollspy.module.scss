@@ -1,0 +1,30 @@
+.root {
+  @apply sticky top-0 py-5 md:py-8 bg-white;
+
+  .linkScrollContainer {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none; /* Safari and Chrome */
+    }
+  }
+  .linkcontainer {
+    display: flex;
+    &[data-centered='true'] {
+      justify-content: center;
+    }
+    .link {
+      @apply border-b border-b-transparent md:border-b-0 text-sm md:text-5xl text-rb-black/50  md:tracking-[-0.768px] font-everett mr-5 md:mr-15 last:mr-0 whitespace-nowrap transition-all;
+      &[data-active='true'] {
+        @apply text-rb-black border-b-rb-link-green;
+      }
+    }
+
+    .link:hover{
+      @apply text-rb-link-green;
+    }
+  }
+}

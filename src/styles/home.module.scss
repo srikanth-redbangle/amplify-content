@@ -1,0 +1,55 @@
+.title {
+  @apply font-everett;
+  // font-size: clamp(56px, 8.4vw, 104px);
+  font-size: 104px;
+  font-weight: 500;
+  line-height: 1.07;
+  letter-spacing: -3.12px;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  @media (max-width: 360px) {
+    font-size: 75px;
+    line-height: 1;
+  }
+}
+
+.content {
+  height: auto;
+  width: 204px;
+
+  @media (min-width: 768px) {
+    height: clamp(56px, 8.4vw, 120px);
+    width: auto;
+  }
+}
+
+.letterContainer {
+  height: clamp(56px, 8.4vw, 120px);
+  overflow: hidden;
+  .letterRoll {
+    @apply flex flex-col -translate-y-full;
+  }
+}
+
+.rtol {
+  transform: translateX(10%);
+  opacity: 0;
+}
+.ltor {
+  transform: translateX(-10%);
+  opacity: 0;
+
+  @media (max-width: 768px) {
+    font-size: 40px;
+    letter-spacing: -1.4px;
+  }
+}
+.textblend {
+  mix-blend-mode: screen;
+  background-color: #ffffff;
+}
